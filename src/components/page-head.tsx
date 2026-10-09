@@ -1,0 +1,1 @@
+export const PageHead = ({ title, sub }: { title: string; sub: string }) => <header className="mb-8"><h1 className="font-display text-3xl">{title}</h1><p className="mt-1 text-sm text-muted-foreground">{sub}</p></header>;
